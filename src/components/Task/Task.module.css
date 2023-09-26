@@ -1,0 +1,71 @@
+.task {
+    width: 100%;
+    background: #262626;
+    border: 1px solid #4c5477;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 7px;
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+.task:hover {
+    /* transform: translateY(-3px); */
+    box-shadow: #4EA8DE 0px 0px 10px 1px;
+
+}
+
+.task p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #F2F2F2;
+    margin-right: auto;
+    transition: 0.2s ease;
+}
+
+p.textCompleted {
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.checkContainer {
+    width: 18px;
+    height: 18px;
+    background: none;
+    border: none;
+}
+
+.checkContainer div {
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+    border: 2px solid #4EA8DE;
+}
+
+.checkContainer svg {
+    width: 100%;
+    height: 100%;
+    color: #5E60CE;
+}
+
+.deleteButton {
+    background: none;
+    border: none;
+    color: #808080;
+    transition: 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.deleteButton:hover {
+    color: #4EA8DE;
+}
+
+.timedate {
+    font-size: .8rem;
+    color: gray;
+}
