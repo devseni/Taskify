@@ -1,8 +1,16 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Taskify Web Application with ReactJS
 
-Currently, two official plugins are available:
+Taskify is a wonderful and responsive web app developed using ReactJS for managing tasks. It efficiently stores data in the browser's Local Storage and boasts a modern and elegant UI. 
+It also records the time and date of task creation.
+What sets this app apart from others is its support for both left-to-right (ltr) and right-to-left (rtl) languages, along with different fonts, which enhances the readability of the typed tasks within the app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Screenshots
+
+![App Screenshot](https://github-production-user-asset-6210df.s3.amazonaws.com/73791490/271127125-b71df176-99e9-4820-9dba-6c561c7865db.jpg)
+
+
+## Demo
+
+## [Online Demo](https://taskifynow.netlify.app/)
