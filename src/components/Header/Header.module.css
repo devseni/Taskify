@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.logo{
+.logo {
     width: 250px;
 }
 
@@ -66,4 +66,10 @@
 
 .newTaskForm button:active {
     transform: scale(0.98);
+}
+
+@media (max-width: 380px) {
+    .newTaskForm input {
+        width: 30px;
+    }
 }

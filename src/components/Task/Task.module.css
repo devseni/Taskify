@@ -69,3 +69,9 @@ p.textCompleted {
     font-size: .8rem;
     color: gray;
 }
+
+@media (max-width: 380px) {
+    .task span {
+        display: none;
+    }
+}
